@@ -39,3 +39,43 @@ header {
     font-size: 16px;
     margin: 24px 0 32px 0;
 }
+
+/* my failure days section design started from here */
+
+.failure-days {
+    display: flex;
+    align-items: center;
+    margin: 100px 200px;
+}
+
+.failure-info {
+    margin-left: 87px;
+}
+
+
+.failure-info h3 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.failure-info p {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0 16px 0;
+}
+
+.failure-info li {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.failure-info li i {
+    color: #16D887;
+    margin-right: 9px;
+}
