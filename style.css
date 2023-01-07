@@ -3,10 +3,19 @@
     padding: 0;
 }
 
+.btn-primary {
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: chartreuse;
+    border: 0;
+    border-radius: 5px;
+}
+
 /* header area design started from here */
 
 header {
-    height: 100vh;
+    height: 700px;
     background-image: url(./images/banner/banner1.png);
     background-position: right;
     background-repeat: no-repeat;
@@ -15,4 +24,18 @@ header {
 
 .header-content {
     text-align: right;
+    padding: 216px 230px 0 0;
+}
+
+.header-content h2 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.header-content p {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 24px 0 32px 0;
 }
