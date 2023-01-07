@@ -186,9 +186,9 @@ header {
     margin: 0 230px 130px 230px;
     text-align: left;
     height: 300px;
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(./images/watch.png);
     background-size: cover;
-    background-position: right center;
+    background-position: center right;
     border-radius: 8px;
 
 
