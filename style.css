@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
 .btn-primary {
     padding: 20px 25px;
     font-size: 20px;
@@ -137,4 +142,65 @@ header {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
+}
+
+/* footer section design started from here */
+
+footer {
+    height: 500px;
+    background-color: #000;
+    color: #fff;
+}
+
+.contact {
+    padding: 130px 230px;
+    display: flex;
+    align-self: center;
+    gap: 330px;
+    padding-bottom: 0;
+}
+
+.contact h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.contact p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact .information {
+    margin: 16px 0 24px 0;
+}
+
+
+.contact .email {
+    margin-bottom: 16px;
+}
+
+.contact .phone {
+    margin-bottom: 32px;
+}
+
+.contact-info img {
+    margin-right: 17px;
+}
+
+.newslatter h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.newslatter input[type="text"] {
+    background-color: #151414;
+    padding: 21px 21px 22px 0;
+    border: 1px solid #F3F3F3;
+    border-radius: 4px;
+    margin: 30px 0 16px 0;
+}
+
+.newslatter input::placeholder {
+    color: #F3F3F3;
+    padding-left: 10px
 }
