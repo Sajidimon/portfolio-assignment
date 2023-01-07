@@ -45,7 +45,7 @@ header {
 .failure-days {
     display: flex;
     align-items: center;
-    margin: 100px 200px;
+    margin: 130px 200px;
 }
 
 .failure-info {
@@ -78,4 +78,63 @@ header {
 .failure-info li i {
     color: #16D887;
     margin-right: 9px;
+}
+
+/* my plan section design started from here */
+
+
+.my-plan {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.my-plan h2 {
+    margin-bottom: 55px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plan-category {
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+}
+
+.plan-category h3 {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 0 15px 0;
+}
+
+.plan-category p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* call to action section design started from here */
+
+.call-to-action {
+    margin: 0 230px 130px 230px;
+    text-align: left;
+    height: 300px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-size: cover;
+    background-position: right center;
+    border-radius: 8px;
+
+
+}
+
+.action-info {
+    padding: 59px 0 59px 64px;
+}
+
+.action-info h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
 }
