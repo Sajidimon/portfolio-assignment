@@ -45,6 +45,60 @@ header {
     margin: 24px 0 32px 0;
 }
 
+
+
+/* my success days section design started from here */
+
+
+.my-success p {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.success-heading {
+    text-align: center;
+    margin: 80px 0 50px 0;
+}
+
+.success-heading h3 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.success-heading p {
+    margin: 20px 0 40px 0;
+}
+
+.success-field {
+    display: flex;
+    gap: 23px;
+    margin: 0 115px 120px 115px;
+}
+
+.success-field h4 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15px 0 20px 0;
+}
+
+.success {
+    background-color: rgb(68, 20, 243);
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.success p {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+
+
+
+
 /* my failure days section design started from here */
 
 .failure-days {
@@ -85,6 +139,10 @@ header {
     margin-right: 9px;
 }
 
+
+
+
+
 /* my plan section design started from here */
 
 
@@ -119,6 +177,9 @@ header {
     font-weight: 500;
 }
 
+
+
+
 /* call to action section design started from here */
 
 .call-to-action {
@@ -143,6 +204,9 @@ header {
     font-weight: 700;
     margin-bottom: 24px;
 }
+
+
+
 
 /* footer section design started from here */
 
